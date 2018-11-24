@@ -4,12 +4,15 @@
   "description": "Hamir's Store landing page",
   "main": "index.js",
   "dependencies": {
+    "angular": "^1.7.5",
     "express": "^4.16.4",
+    "jquery": "^3.3.1",
+    "nodemailer": "^4.7.0",
     "path": "^0.12.7"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -28,12 +31,9 @@
     "lagos",
     "sweatpants"
   ],
-  "engines":{
-    "node": "6.11.2" ,
+  "engines": {
+    "node": "6.11.2",
     "npm": "3.10.10"
-  },
-  "scripts": {
-    "start": "node index.js"
   },
   "author": "Adeola Adeyemo",
   "license": "ISC",
